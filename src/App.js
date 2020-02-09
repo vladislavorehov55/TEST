@@ -4,7 +4,7 @@ import Table from "./components/Table";
 import AddUser from "./components/AddUser";
 import FiltrUser from "./components/FiltrUser";
 import ShowDetails from "./components/ShowDetails";
-import {URL_SMALL_DATASET,URL_BIG_DATASET, users, USER_PER_PAGE} from './components/constant';
+import {URL_SMALL_DATASET,URL_BIG_DATASET, USER_PER_PAGE} from './components/constant';
 import axios from 'axios';
 class App extends React.Component{
   state = {
